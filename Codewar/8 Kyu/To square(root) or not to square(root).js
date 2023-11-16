@@ -25,6 +25,7 @@ const squareOrSquareRoot = (array) => {
   if (!Array.isArray(array)) {
     throw new Error('Not an array');
   }
+
   // Process each number in the array
   const resultArray = inputArray.map((number) => {
     const squareRoot = Math.sqrt(number);
